@@ -1,6 +1,6 @@
 # Online-Retail-Customer-Segmentation
 
-**Abstract**:
+## **Abstract**:
 
  Segmentation is the process of dividing your customers up into different groups, with each group sharing similar characteristics, to improve engagement, sales and loyalty.
 
@@ -10,7 +10,6 @@
 
 •	Improves how to predict customer behaviour
 
-
 •	Increased customer retention and policy
 
 •	Helps to improve customer lifetime value
@@ -19,9 +18,9 @@
 
 The provided dataset contains information about Invoiceno, Stockcode , Description, Quantity , InvoiceDate , Unitprice , CustomerId and Country . In this project our goal is to identify major customer segments on transnational dataset.
 
-**1.Problem Statement**
+## **1.Problem Statement**
  
- We have given a dataset with the about Invoiceno, Stockcode , Description, Qauntity , InvoiceDate , Unitprice , CustomerId and Country . In this project our goal is to identify major customer segments on transnational dataset. In this project, our task is to identify major customer segments on a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail. The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
+We have given a dataset with the about Invoiceno, Stockcode , Description, Qauntity , InvoiceDate , Unitprice , CustomerId and Country . In this project our goal is to identify major customer segments on transnational dataset. In this project, our task is to identify major customer segments on a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail. The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
         
 We have given the following information in our dataset:
 
@@ -41,12 +40,12 @@ We have given the following information in our dataset:
 
 •	**Country**: Country name. Nominal, the name of the country where each customer resides.
 
-2. **Introduction**
+## 2. **Introduction**
  
  We have given a dataset with the about Invoiceno, Stockcode , Description, Qauntity , InvoiceDate , Unitprice , CustomerId and Country . In this project our goal is to identify major customer segments on transnational dataset. In this project, our task is to identify major customer segments on a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail. The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
 Our dataset has 541909 rows and 8 columns. The goal of the project is to identify major customer segments on transnational dataset beforehand which could us to get basic understanding of our dataset, finding outliers, finding correlation between the data, perform Data visualization, models implementation and finally getting conclusion. 
 
-3. **Steps Involved**
+## 3. **Steps Involved**
 
 
 **Data Summary**
@@ -89,7 +88,7 @@ K means is an unsupervised machine leaning algorithm that divides given data int
 Elbow is one of the most famous methods by which you can select the right value of k and boost your model performance. We also perform the hyperparameter tuning to chose the best value of k. Let us see how this elbow method works. It is an empirical  method to find out the best value of k. it picks up the range of values and takes the best among them. It calculates the sum of the square of the points and calculates the average distance.
 
 
-**Conclusion**
+## **Conclusion**
 
 Throughout the analysis we went through various steps to perform customer segmentation. We started with data wrangling in which we tried to handle null values, duplicates and performed feature modifications. Next, we did some exploratory data analysis and tried to draw observations from the features we had in the dataset. Then, we formulated some quantitative factors such as recency, frequency and monetary known as rfm model for each of the customers. We implemented KMeans clustering algorithm on these features. We also performed silhouette and elbow method analysis to determine the optimal no. of clusters which was 2. We saw customers having high recency and low frequency and monetary values were part of one cluster and customers having low recency and high frequency, monetary values were part of another cluster.
 
